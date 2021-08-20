@@ -29,7 +29,7 @@ function App({ width }) {
             </Box>
             <Box marginTop={"2%"}>
                 <Typography display="flex" justifyContent="center">
-                    Full-stack software development for revolutionary start ups.
+                    {isSmallScreen ? "Full-stack software development" : "Full-stack software development for revolutionary start ups."}
                 </Typography>
             </Box>
             <Box marginTop={"2%"} width="25%" display="flex" justifyContent="space-around">
